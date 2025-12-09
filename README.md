@@ -1,13 +1,4 @@
-Below is a clean, professional **README.md** file based on your final architecture:
-
-* **VPC with asymmetric (variable-size) subnets**
-* **NO NAT Gateway**
-* **Private subnets have *local-only* routing (no internet, no NAT, no VPC endpoint, no peering)**
-* You deployed everything through the **AWS Console**, so the README describes the design, purpose, and deployment steps without Terraform.
-
----
-
-# **README – AWS Asymmetric VPC Architecture (No NAT Gateway)**
+# **AWS Asymmetric VPC Architecture (No NAT Gateway)**
 
 ## **📌 Project: asymmetric-vpc-build**
 
@@ -184,14 +175,3 @@ This VPC architecture provides:
 ✔ Production-level tagging and organization
 
 ### **Private subnets are completely isolated**, making this environment ideal for sensitive applications, internal systems, and secure backend workloads.
-
----
-
-If you'd like, I can also create:
-
-✅ A diagram (ASCII, draw.io template, Lucidchart version, or Mermaid)
-✅ A PDF version of this README
-✅ A Terraform-equivalent configuration (optional)
-
-Would you like any of those?
-
