@@ -48,7 +48,7 @@ This architecture is ideal for environments that require strict isolation for pr
 
 # **📍 Subnet Design (Variable Sizes)**
 
-| Subnet Name      | Type    | Approx IP Capacity | CIDR Size | Purpose                    |
+| Subnet Name      | Type    | Approx IP Capacity | CIDR Size | Purpose(Example)           |
 | ---------------- | ------- | ------------------ | --------- | -------------------------- |
 | Public Subnet A  | Public  | ~256               | /24       | LB, bastion, public apps   |
 | Public Subnet B  | Public  | ~4,096             | /20       | Scalable public workloads  |
